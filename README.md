@@ -6,7 +6,7 @@ These files, run in order, reproduce the analysis we've used to analyse the MIMI
 1. "edstays-extract-time-of-day-and-previous-visits.r": extracts time spent in ER, time of arrival, year group associated with patient, and visit history.
 2. "edstays_triage_data_cleaning_mult_visits.r": cleans and categorises vital signs, pain scores, and demographic variables.
 3. "mimic-chief-complaint.r": translates the free-text "chief complaint" field to a series of 54 binary indicators associated with each visit.
-4. "mimic-chief-complaint.r": obtains patient age at each visit from the MIMIC-IV dataset, and translates ICD codes associated with each stay to a Charlson score. Also obtains insurance, marital, and language info for visits resulting in an admission.
+4. "link-with-mimic-iv.r": obtains patient age at each visit from the MIMIC-IV dataset, and translates ICD codes associated with each stay to a Charlson score. Also obtains insurance, marital, and language info for visits resulting in an admission.
 5. "edstays-triage-hists.r": produces histograms showing the distribution of variables across the cohort, allowing at-a-glance identification of reference groups.
 6. "mimic_mult_visit_with_vitals_binary_recode.r": reformat data on all visits to ER to a series of binary indicators.
 7. "adm_edstays_binary_recode.r": reformat data on all visits to ER *resulting in an admission* to a series of binary indicators, including additional covariates.

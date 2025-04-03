@@ -34,7 +34,7 @@ library(cobalt)
 wait_times <- c(300, 465) #in minutes
 wait_names <- c("top_50", "top_25")
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 edstays <- read.csv("edstays_binary_recoded_mult_visits_mimic_with_age_vitals.csv")
 edstays <- edstays %>% filter(is_discharged==1, time_in_ed <= 24*60)

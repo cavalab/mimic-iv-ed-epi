@@ -29,7 +29,7 @@ library(cobalt)
 
 #question: is URGENCY affected by GENDER?-- this time broken out by race
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/gender/by_race/"
 

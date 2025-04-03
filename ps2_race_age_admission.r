@@ -30,7 +30,7 @@ library(cobalt)
 #question: is admission affected by AGE for different race?
 
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/race_age/"
 

@@ -29,7 +29,7 @@ library(cobalt)
 
 #question: is ADMISSION affected by GENDER?
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/gender/"
 

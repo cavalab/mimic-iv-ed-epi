@@ -30,7 +30,7 @@ library(cobalt)
 #question: is ADMISSION affected by RACE+GENDER?
 
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/rg_intersection/"
 

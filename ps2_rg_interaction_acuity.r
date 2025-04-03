@@ -31,7 +31,7 @@ library(cobalt)
 #here we calculate expected odds ratios and make plots
 
 
-setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
+#setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/rg_intersection/"
 

@@ -48,8 +48,7 @@ covariates <- vars[!vars %in% c("is_admitted", "is_discharged", "acuity_high", "
 past_triage <- covariates[startsWith(covariates, "during_stay") | startsWith(covariates, "charlson")]
 covariates <- covariates[!(covariates %in% past_triage)]
 
-print(covariates)
-assert(1==0)
+
 
 #create a combined column for ESI scores 1/2- this is our outcome
 edstays$urgent <- edstays$acuity_high + edstays$acuity_very_high

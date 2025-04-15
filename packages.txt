@@ -13,3 +13,6 @@ gtsummary
 forcats
 comorbidity
 janitor
+MatchIt
+exact2x2
+cobalt

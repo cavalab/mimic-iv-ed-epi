@@ -43,7 +43,9 @@ To run them all, run `preprocess.sh` (from a *nix system).
 8. `edstays_add_vitalsigns_during_stay.r`: attach data on vital signs from readings taken during a patient's stay, cleaned, categorised, and reformat as binary indicators.
 
 ## Propensity score and Odds Ratio Calculations
-All other files (starting "ps2") are named according to their exposure and outcome. These fit propensity scores for a given exposure variable, calculate odds ratios using two PS methodologies (covariate adjustment and matching with McNemar's test), save them, and produce OR plots (for categorical exposures).
+All other files (starting "ps2") are named according to their exposure and outcome. 
+These fit propensity scores for a given exposure variable, calculate odds ratios using two PS methodologies (covariate adjustment and matching with McNemar's test), save them, and produce OR plots (for categorical exposures).
+To run all of these files, run `analysis.sh`. 
 
 # Acknowledgments
 

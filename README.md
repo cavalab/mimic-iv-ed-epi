@@ -27,7 +27,7 @@ Visits resulting in an admission to hospital were assigned a specific linkage ID
 - `packages.txt` contains the R libraries that are needed. To install them, run `Rscript install_packages.r`. 
 - [MIMIC-IV-ED dataset (v 2.2) from Physionet](https://physionet.org/content/mimic-iv-ed/2.2/), mapped to the directory `mimic-iv-ed` in the repo root. 
 - [MIMIC-IV dataset (v 3.1) from Physionet](https://physionet.org/content/mimiciv/3.1/), mapped to the directory `mimic-iv-3.1` in the repo root. 
-- 
+
 ## Preprocessing
 
 These files, run in order, reproduce the analysis we've used to analyse the MIMIC-IV-ED dataset.

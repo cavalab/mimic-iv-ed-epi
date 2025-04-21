@@ -33,7 +33,7 @@ library(cobalt)
 #setwd("/Users/helenacoggan/Documents/MIMIC-IV-ED/")
 
 save_filepath <- "ps2/age/"
-dir.create(save_filepath) 
+dir.create(save_filepath, recursive=TRUE) 
 
 #data on all patients
 edstays <- read.csv("edstays_binary_recoded_mult_visits_mimic_with_age_vitals.csv")

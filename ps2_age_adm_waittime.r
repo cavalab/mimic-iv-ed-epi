@@ -42,7 +42,7 @@ adm_edstays <- read.csv("adm_edstays_binary_recoded_mult_visits_mimic_with_age_v
 adm_edstays <- adm_edstays %>% filter(time_in_ed <= 24*60)
 
 save_filepath <- "ps2/age/wait_times/admitted/"
-dir.create(save_filepath) 
+dir.create(save_filepath, recursive=TRUE) 
 
 #identify covariates- delete outcomes, and age
 #also delete pregnancy

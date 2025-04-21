@@ -34,7 +34,7 @@ wait_names <- c("top_50", "top_25")
 adm_edstays <- read.csv("adm_edstays_binary_recoded_mult_visits_mimic_with_age_vitals.csv")
 
 save_filepath <- "ps2/gender/by_race/wait_times/admitted/"
-dir.create(save_filepath) 
+dir.create(save_filepath, recursive=TRUE) 
 
 #print(head(adm_edstays))
 

@@ -40,7 +40,7 @@ edstays <- read.csv("edstays_binary_recoded_mult_visits_mimic_with_age_vitals.cs
 edstays <- edstays %>% filter(is_discharged==1, time_in_ed <= 24*60)
 
 save_filepath <- "ps2/race_age/wait_times/discharged/"
-dir.create(save_filepath) 
+dir.create(save_filepath, recursive=TRUE) 
 
 #identify covariates- delete outcomes, and age
 #also delete pregnancy
